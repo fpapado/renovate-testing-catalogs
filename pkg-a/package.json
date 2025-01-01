@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "react": "catalog:",
-    "is-positive": "1.0.0",
+    "is-positive": "3.1.0",
     "is-negative": "^1.0.0"
   }
 }
