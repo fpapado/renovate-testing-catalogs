@@ -4,6 +4,15 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+catalogs:
+  default:
+    is-negative:
+      specifier: zkochan/is-negative#2.0.1
+      version: 2.0.1
+    is-positive:
+      specifier: kevva/is-positive#16fd36fe96106175d02d066171c44e2ff83bc055
+      version: 3.0.0
+
 overrides:
   react: 18.3.1
   pkg-b>react: 18.3.1
@@ -15,11 +24,11 @@ importers:
   pkg-a:
     dependencies:
       is-negative:
-        specifier: ^1.0.0
-        version: 1.0.1
+        specifier: 'catalog:'
+        version: https://codeload.github.com/zkochan/is-negative/tar.gz/2fa0531ab04e300a24ef4fd7fb3a280eccb7ccc5
       is-positive:
-        specifier: 1.0.0
-        version: 1.0.0
+        specifier: 'catalog:'
+        version: https://codeload.github.com/kevva/is-positive/tar.gz/16fd36fe96106175d02d066171c44e2ff83bc055
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -32,12 +41,14 @@ importers:
 
 packages:
 
-  is-negative@1.0.1:
-    resolution: {integrity: sha512-gmv+xZIqPGWfqTf195S+I8tw4h/VswI30Eu21e1r8qUVNHIiVdAVtpzoZBGQqrTNC+YjSwCNl33SXU7kuNwMzA==}
+  is-negative@https://codeload.github.com/zkochan/is-negative/tar.gz/2fa0531ab04e300a24ef4fd7fb3a280eccb7ccc5:
+    resolution: {tarball: https://codeload.github.com/zkochan/is-negative/tar.gz/2fa0531ab04e300a24ef4fd7fb3a280eccb7ccc5}
+    version: 2.0.1
     engines: {node: '>=0.10.0'}
 
-  is-positive@1.0.0:
-    resolution: {integrity: sha512-xxzPGZ4P2uN6rROUa5N9Z7zTX6ERuE0hs6GUOc/cKBLF2NqKc16UwqHMt3tFg4CO6EBTE5UecUasg+3jZx3Ckg==}
+  is-positive@https://codeload.github.com/kevva/is-positive/tar.gz/16fd36fe96106175d02d066171c44e2ff83bc055:
+    resolution: {tarball: https://codeload.github.com/kevva/is-positive/tar.gz/16fd36fe96106175d02d066171c44e2ff83bc055}
+    version: 3.0.0
     engines: {node: '>=0.10.0'}
 
   js-tokens@4.0.0:
@@ -53,9 +64,9 @@ packages:
 
 snapshots:
 
-  is-negative@1.0.1: {}
+  is-negative@https://codeload.github.com/zkochan/is-negative/tar.gz/2fa0531ab04e300a24ef4fd7fb3a280eccb7ccc5: {}
 
-  is-positive@1.0.0: {}
+  is-positive@https://codeload.github.com/kevva/is-positive/tar.gz/16fd36fe96106175d02d066171c44e2ff83bc055: {}
 
   js-tokens@4.0.0: {}
 
