@@ -4,6 +4,7 @@
   "dependencies": {
     "react": "catalog:",
     "is-positive": "catalog:",
-    "is-negative": "catalog:"
+    "is-negative": "catalog:",
+    "is-string-custom": "catalog:"
   }
 }
