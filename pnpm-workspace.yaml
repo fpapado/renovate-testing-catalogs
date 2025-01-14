@@ -7,7 +7,7 @@ catalogs:
     react: 18.1.0
     is-positive: kevva/is-positive#16fd36fe96106175d02d066171c44e2ff83bc055
     is-negative: zkochan/is-negative#2.0.1
-    is-string-custom: npm:is-string@1.0.0
+    is-string-custom: npm:is-string@1.1.1
 
   react17:
     react: ^17.0.2
