@@ -16,12 +16,12 @@ catalogs:
       specifier: npm:is-string@1.0.0
       version: 1.0.0
     react:
-      specifier: 18.1.0
-      version: 18.1.0
+      specifier: 19.0.0
+      version: 19.0.0
   react17:
     react:
-      specifier: ^17.0.2
-      version: 17.0.2
+      specifier: ^19.0.0
+      version: 19.0.0
     react-dom:
       specifier: ^17.0.2
       version: 17.0.2
@@ -43,7 +43,7 @@ importers:
         version: is-string@1.0.0
       react:
         specifier: 'catalog:'
-        version: 18.1.0
+        version: 19.0.0
     devDependencies:
       prettier:
         specifier: 3.2.0
@@ -53,10 +53,10 @@ importers:
     dependencies:
       react:
         specifier: catalog:react17
-        version: 17.0.2
+        version: 19.0.0
       react-dom:
         specifier: catalog:react17
-        version: 17.0.2(react@17.0.2)
+        version: 17.0.2(react@19.0.0)
 
 packages:
 
@@ -95,12 +95,8 @@ packages:
     peerDependencies:
       react: 17.0.2
 
-  react@17.0.2:
-    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
-    engines: {node: '>=0.10.0'}
-
-  react@18.1.0:
-    resolution: {integrity: sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==}
+  react@19.0.0:
+    resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
     engines: {node: '>=0.10.0'}
 
   scheduler@0.20.2:
@@ -124,21 +120,14 @@ snapshots:
 
   prettier@3.2.0: {}
 
-  react-dom@17.0.2(react@17.0.2):
+  react-dom@17.0.2(react@19.0.0):
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
-      react: 17.0.2
+      react: 19.0.0
       scheduler: 0.20.2
 
-  react@17.0.2:
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
-
-  react@18.1.0:
-    dependencies:
-      loose-envify: 1.4.0
+  react@19.0.0: {}
 
   scheduler@0.20.2:
     dependencies:
