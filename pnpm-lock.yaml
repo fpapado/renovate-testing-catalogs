@@ -7,8 +7,8 @@ settings:
 catalogs:
   default:
     is-negative:
-      specifier: zkochan/is-negative#2.0.1
-      version: 2.0.1
+      specifier: zkochan/is-negative#2.1.0
+      version: 2.1.0
     is-positive:
       specifier: kevva/is-positive#16fd36fe96106175d02d066171c44e2ff83bc055
       version: 3.0.0
@@ -34,7 +34,7 @@ importers:
     dependencies:
       is-negative:
         specifier: 'catalog:'
-        version: https://codeload.github.com/zkochan/is-negative/tar.gz/2fa0531ab04e300a24ef4fd7fb3a280eccb7ccc5
+        version: https://codeload.github.com/zkochan/is-negative/tar.gz/54355c870aab5b671fc7abe261d004b326a2592d
       is-positive:
         specifier: 'catalog:'
         version: https://codeload.github.com/kevva/is-positive/tar.gz/16fd36fe96106175d02d066171c44e2ff83bc055
@@ -60,9 +60,9 @@ importers:
 
 packages:
 
-  is-negative@https://codeload.github.com/zkochan/is-negative/tar.gz/2fa0531ab04e300a24ef4fd7fb3a280eccb7ccc5:
-    resolution: {tarball: https://codeload.github.com/zkochan/is-negative/tar.gz/2fa0531ab04e300a24ef4fd7fb3a280eccb7ccc5}
-    version: 2.0.1
+  is-negative@https://codeload.github.com/zkochan/is-negative/tar.gz/54355c870aab5b671fc7abe261d004b326a2592d:
+    resolution: {tarball: https://codeload.github.com/zkochan/is-negative/tar.gz/54355c870aab5b671fc7abe261d004b326a2592d}
+    version: 2.1.0
     engines: {node: '>=0.10.0'}
 
   is-positive@https://codeload.github.com/kevva/is-positive/tar.gz/16fd36fe96106175d02d066171c44e2ff83bc055:
@@ -108,7 +108,7 @@ packages:
 
 snapshots:
 
-  is-negative@https://codeload.github.com/zkochan/is-negative/tar.gz/2fa0531ab04e300a24ef4fd7fb3a280eccb7ccc5: {}
+  is-negative@https://codeload.github.com/zkochan/is-negative/tar.gz/54355c870aab5b671fc7abe261d004b326a2592d: {}
 
   is-positive@https://codeload.github.com/kevva/is-positive/tar.gz/16fd36fe96106175d02d066171c44e2ff83bc055: {}
 
