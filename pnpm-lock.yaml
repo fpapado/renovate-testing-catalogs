@@ -23,8 +23,8 @@ catalogs:
       specifier: ^17.0.2
       version: 17.0.2
     react-dom:
-      specifier: ^17.0.2
-      version: 17.0.2
+      specifier: ^19.0.0
+      version: 19.0.0
 
 importers:
 
@@ -56,7 +56,7 @@ importers:
         version: 17.0.2
       react-dom:
         specifier: catalog:react17
-        version: 17.0.2(react@17.0.2)
+        version: 19.0.0(react@17.0.2)
 
 packages:
 
@@ -90,10 +90,10 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  react-dom@17.0.2:
-    resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
+  react-dom@19.0.0:
+    resolution: {integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==}
     peerDependencies:
-      react: 17.0.2
+      react: ^19.0.0
 
   react@17.0.2:
     resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
@@ -103,8 +103,8 @@ packages:
     resolution: {integrity: sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==}
     engines: {node: '>=0.10.0'}
 
-  scheduler@0.20.2:
-    resolution: {integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==}
+  scheduler@0.25.0:
+    resolution: {integrity: sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==}
 
 snapshots:
 
@@ -124,12 +124,10 @@ snapshots:
 
   prettier@3.2.0: {}
 
-  react-dom@17.0.2(react@17.0.2):
+  react-dom@19.0.0(react@17.0.2):
     dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
       react: 17.0.2
-      scheduler: 0.20.2
+      scheduler: 0.25.0
 
   react@17.0.2:
     dependencies:
@@ -140,7 +138,4 @@ snapshots:
     dependencies:
       loose-envify: 1.4.0
 
-  scheduler@0.20.2:
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
+  scheduler@0.25.0: {}
