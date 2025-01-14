@@ -8,6 +8,6 @@
     "react": "catalog:"
   },
   "devDependencies": {
-    "prettier": "3.2.0"
+    "prettier": "3.4.2"
   }
 }
