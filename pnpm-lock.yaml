@@ -16,8 +16,8 @@ catalogs:
       specifier: npm:is-string@1.0.0
       version: 1.0.0
     react:
-      specifier: 18.0.0
-      version: 18.0.0
+      specifier: 18.1.0
+      version: 18.1.0
   react17:
     react:
       specifier: ^17.0.2
@@ -43,7 +43,7 @@ importers:
         version: is-string@1.0.0
       react:
         specifier: 'catalog:'
-        version: 18.0.0
+        version: 18.1.0
     devDependencies:
       prettier:
         specifier: 3.2.0
@@ -99,8 +99,8 @@ packages:
     resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
     engines: {node: '>=0.10.0'}
 
-  react@18.0.0:
-    resolution: {integrity: sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A==}
+  react@18.1.0:
+    resolution: {integrity: sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==}
     engines: {node: '>=0.10.0'}
 
   scheduler@0.20.2:
@@ -136,7 +136,7 @@ snapshots:
       loose-envify: 1.4.0
       object-assign: 4.1.1
 
-  react@18.0.0:
+  react@18.1.0:
     dependencies:
       loose-envify: 1.4.0
 
