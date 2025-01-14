@@ -1,0 +1,13 @@
+{
+  "name": "pkg-a",
+  "version": "1.0.0",
+  "dependencies": {
+    "is-negative": "catalog:",
+    "is-positive": "catalog:",
+    "is-string-custom": "catalog:",
+    "react": "catalog:"
+  },
+  "devDependencies": {
+    "prettier": "3.2.0"
+  }
+}
