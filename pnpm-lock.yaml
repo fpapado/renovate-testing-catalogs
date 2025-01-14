@@ -46,8 +46,8 @@ importers:
         version: 18.1.0
     devDependencies:
       prettier:
-        specifier: 3.2.0
-        version: 3.2.0
+        specifier: 3.4.2
+        version: 3.4.2
 
   pkg-b:
     dependencies:
@@ -85,8 +85,8 @@ packages:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
 
-  prettier@3.2.0:
-    resolution: {integrity: sha512-/vBUecTGaPlRVwyZVROVC58bYIScqaoEJzZmzQXXrZOzqn0TwWz0EnOozOlFO/YAImRnb7XsKpTCd3m1SjS2Ww==}
+  prettier@3.4.2:
+    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -122,7 +122,7 @@ snapshots:
 
   object-assign@4.1.1: {}
 
-  prettier@3.2.0: {}
+  prettier@3.4.2: {}
 
   react-dom@17.0.2(react@17.0.2):
     dependencies:
